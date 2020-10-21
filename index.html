@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-A-Sketch</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Etch-A-Sketch</h1>
+    </header>
+    <div class="buttons">
+      <button id="reset" onclick="sizeGrid()">Reset</button>
+      <button class="color" id="black" onclick="setBlack()">Black</button>
+      <button class="color" id="rainbow" onclick="setRainbow()">Rainbow</button>
+      <button class="color" id="pencil" onclick="setPencil()">Pencil</button>
+    </div>
+    <div class="container" id="grid"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
