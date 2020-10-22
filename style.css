@@ -6,6 +6,11 @@ button {
   padding: 5px 15px 5px 15px;
   box-shadow: 2px 2px 5px black;
   margin: 10px;
+  
+}
+
+#title {
+  text-align: center;
 }
 
 .container {
@@ -13,9 +18,20 @@ button {
   width: 800px;
   height: 800px;
   border: 1px solid black;
+  box-shadow: 2px 2px 5px black;
+  margin: auto;
+}
+
+.buttons {
+  margin: 0px 0px 20px 0px;
+  text-align: center;
 }
 
 .gridspace {
   border: 0.1px solid rgba(0, 0, 0, 0.1);
 }
 
+.box {
+  border: 1px solid black;
+  padding: 0px -30px 80px -30px;
+}
